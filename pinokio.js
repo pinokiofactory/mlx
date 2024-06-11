@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "1.5",
   title: "mlx",
-  description: "An all-in-one LLMs Chat UI for Apple Silicon Mac using MLX Framework. https://github.com/qnguyen3/chat-with-mlx",
+  description: "[Mac Onlyl] An all-in-one LLMs Chat UI for Apple Silicon Mac using MLX Framework. https://github.com/qnguyen3/chat-with-mlx",
   icon: "icon.png",
   menu: async (kernel) => {
     let installing = await kernel.running(__dirname, "install.js")
