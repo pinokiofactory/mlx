@@ -20,6 +20,16 @@ module.exports = {
         ]
       }
     },
+    {
+      method: "shell.run",
+      params: {
+        venv: "env",                // Edit this to customize the venv folder path
+        path: "app",                // Edit this to customize the path to start the shell from
+        message: [
+          "pip install -U huggingface_hub==0.25.2"
+        ]
+      }
+    },
 //    {
 //      method: "fs.link",
 //      params: {
